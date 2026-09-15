@@ -1,0 +1,9 @@
+import { useTranslation } from "react-i18next";
+import { useParams, Navigate } from "react-router-dom";
+import { SEO } from "../components/common/SEO";
+import { Breadcrumbs } from "../components/common/Breadcrumbs";
+import { OptimizedImage } from "../components/common/OptimizedImage";
+import { BookingCTA } from "../components/booking/BookingCTA";
+import { rooms } from "../data/rooms";
+import { Icon } from "../components/common/Icon";
+export default function RoomDetail(){const {slug}=useParams();const {t}=useTranslation();const room=rooms.find(r=>r.slug===slug);if(!room)return <Navigate to="/rooms" replace/>;const title=t(`rooms.${room.kind}.name`);return <><SEO title={`${title} | PAPARAZZI Luxury Apartments`} description={t(room.descriptionKey)}/><div className="page-header container"><Breadcrumbs label={title}/><p className="eyebrow">{t("rooms.eyebrow")}</p><h1>{title}</h1><p>{t(room.descriptionKey)}</p></div><section className="section"><div className="container room-detail-grid"><div><OptimizedImage className="room-detail-hero" src={room.images[0].src} medium={room.images[0].medium} large={room.images[0].large} alt={t(room.images[0].altKey)} width={room.images[0].width} height={room.images[0].height} loading="eager" fetchPriority="high"/><div className="room-detail-gallery">{room.images.slice(1).map(img=><OptimizedImage key={img.id} src={img.src} medium={img.medium} large={img.large} alt={t(img.altKey)} width={img.width} height={img.height}/>)}</div></div><aside className="room-specs"><div><span>{t("rooms.capacity")}</span><strong>{room.capacity}</strong></div><div><span>{t("rooms.size")}</span><strong>{room.size}</strong></div><div><span>{t("rooms.bed")}</span><strong>{room.bed}</strong></div><h2>{t("rooms.details")}</h2><ul>{room.features.map(k=><li key={k}><Icon name={k as any}/>{t(`amenities.${k}`)}</li>)}</ul></aside></div></section><BookingCTA/></>;}

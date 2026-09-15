@@ -1,0 +1,5 @@
+import { useTranslation } from "react-i18next";
+import { SEO } from "../components/common/SEO";
+import { Breadcrumbs } from "../components/common/Breadcrumbs";
+import { checkIn,checkOut,smokingPolicy,petsPolicy,childrenPolicy } from "../data/hotel";
+export default function HouseRules(){const {t}=useTranslation();const rows=[["checkIn",checkIn],["checkOut",checkOut],["smoking",smokingPolicy],["pets",petsPolicy],["children",childrenPolicy],["noise",t("houseRules.todo")],["damage",t("houseRules.todo")],["keys",t("houseRules.todo")]];return <><SEO title={t("seo.rulesTitle")} description={t("houseRules.intro")}/><div className="page-header container"><Breadcrumbs label={t("navigation.houseRules")}/><p className="eyebrow">{t("houseRules.eyebrow")}</p><h1>{t("houseRules.title")}</h1><p>{t("houseRules.intro")}</p></div><section className="section section--soft"><div className="container rules-list">{rows.map(([key,value])=><div className="rule-row" key={key}><strong>{t(`houseRules.${key}`)}</strong><span>{value}</span></div>)}</div></section></>;}

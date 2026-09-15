@@ -1,0 +1,7 @@
+import { useTranslation } from "react-i18next";
+import { SEO } from "../components/common/SEO";
+import { Breadcrumbs } from "../components/common/Breadcrumbs";
+import { BookingCTA } from "../components/booking/BookingCTA";
+import { phoneNumber,email,bookingUrl,airbnbUrl,whatsappNumber,viberNumber,instagramUrl,facebookUrl } from "../data/hotel";
+import { Icon } from "../components/common/Icon";
+export default function Contact(){const {t}=useTranslation();const links=[["phone",t("contact.phone"),`tel:${phoneNumber}`],["mail",t("contact.email"),`mailto:${email}`],["whatsapp",t("contact.whatsapp"),`https://wa.me/${whatsappNumber}`],["viber",t("contact.viber"),`viber://chat?number=%2B${viberNumber}`],["external",t("contact.booking"),bookingUrl],["external",t("contact.airbnb"),airbnbUrl],["instagram", "Instagram", instagramUrl],["facebook","Facebook",facebookUrl]] as const;return <><SEO title={t("seo.contactTitle")} description={t("contact.description")}/><div className="page-header container"><Breadcrumbs label={t("navigation.contact")}/><p className="eyebrow">{t("contact.eyebrow")}</p><h1>{t("contact.title")}</h1><p>{t("contact.description")}</p></div><section className="section"><div className="container contact-grid">{links.map(([icon,label,href])=><a className="contact-card" key={label} href={href} target={href.startsWith("http")?"_blank":undefined} rel={href.startsWith("http")?"noopener noreferrer":undefined}><Icon name={icon as any} size={24}/><span>{label}</span><Icon name="arrow" size={16}/></a>)}</div></section><BookingCTA/></>;}

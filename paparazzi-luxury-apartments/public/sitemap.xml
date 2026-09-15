@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/rooms</loc></url>
+  <url><loc>/rooms/double-room</loc></url>
+  <url><loc>/rooms/triple-room</loc></url>
+  <url><loc>/rooms/apartment</loc></url>
+  <url><loc>/about</loc></url>
+  <url><loc>/amenities</loc></url>
+  <url><loc>/gallery</loc></url>
+  <url><loc>/things-to-do</loc></url>
+  <url><loc>/location</loc></url>
+  <url><loc>/faq</loc></url>
+  <url><loc>/contact</loc></url>
+  <url><loc>/house-rules</loc></url>
+  <url><loc>/privacy-policy</loc></url>
+  <url><loc>/cookie-policy</loc></url>
+  <url><loc>/terms</loc></url>
+  <url><loc>/accessibility</loc></url>
+</urlset>

@@ -1,0 +1,273 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "rooms": "Zimmer",
+    "about": "Über uns",
+    "amenities": "Ausstattung",
+    "gallery": "Galerie",
+    "thingsToDo": "Sehenswürdigkeiten",
+    "location": "Lage",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "houseRules": "Hausregeln"
+  },
+  "buttons": {
+    "book": "Aufenthalt buchen",
+    "explore": "Zimmer entdecken",
+    "discover": "Bitola entdecken",
+    "viewAll": "Alle ansehen",
+    "learnMore": "Mehr erfahren",
+    "contact": "Kontakt aufnehmen",
+    "map": "In Google Maps öffnen",
+    "backHome": "Zur Startseite",
+    "previous": "Previous image",
+    "next": "Next image",
+    "close": "Close"
+  },
+  "hero": {
+    "eyebrow": "PAPARAZZI · BITOLA",
+    "title": "A refined stay in the heart of Bitola",
+    "description": "PAPARAZZI Luxury Apartments brings together considered interiors, everyday comfort and a convenient Bitola location.",
+    "imageAlt": "PAPARAZZI Luxury Apartments interior"
+  },
+  "hotel": {
+    "introEyebrow": "Die Unterkunft",
+    "introTitle": "Komfort, Privatsphäre und eine unkomplizierte Anreise",
+    "introText": "Three floors and nine accommodation units create a calm, intimate base for discovering Bitola. Every unit has a private bathroom, while self check-in makes arrival simple and flexible.",
+    "courtyard": "A quiet grass-and-tree courtyard sits behind the property.",
+    "selfCheck": "Self check-in with a door PIN and written instructions.",
+    "cleaning": "Cleaning, towels and bedding are provided approximately every 2 days."
+  },
+  "rooms": {
+    "eyebrow": "Stay your way",
+    "title": "Zimmer & Apartments",
+    "description": "Choose from double rooms, triple rooms and two apartments, each designed around practical comfort.",
+    "double": {
+      "name": "Doppelzimmer",
+      "description": "A private room for two with a double sleeping arrangement and private bathroom. Exact room-specific details are marked for completion where not yet supplied."
+    },
+    "triple": {
+      "name": "Dreibettzimmer",
+      "description": "A private sleeping area for up to three guests with an additional bed and private bathroom."
+    },
+    "apartment": {
+      "name": "Apartment",
+      "description": "A separate apartment layout with bedroom, living room and private bathroom. One of the two apartments has a balcony."
+    },
+    "capacity": "Kapazität",
+    "size": "Zimmergröße",
+    "bed": "Bett",
+    "units": "Einheiten",
+    "details": "Zimmerdetails",
+    "gallery": "Zimmergalerie"
+  },
+  "amenities": {
+    "eyebrow": "Everyday comfort",
+    "title": "Durchdachte Essentials",
+    "air": "Klimaanlage",
+    "heating": "Heizung",
+    "tv": "Kabelfernsehen",
+    "wifi": "WLAN",
+    "fridge": "Minikühlschrank",
+    "kettle": "Wasserkocher",
+    "underfloor": "Fußbodenheizung",
+    "privateBathroom": "Eigenes Bad / WC",
+    "shower": "Dusche",
+    "shampoo": "Shampoo",
+    "soap": "Seife",
+    "towels": "Hand-, Bade- und Fußtücher",
+    "selfCheckIn": "Self-Check-in",
+    "doorPin": "Tür-PIN",
+    "keyDrop": "Schlüsselabgabe",
+    "streetParking": "Straßenparkplätze vor der Unterkunft",
+    "courtyard": "Ruhiger Innenhof",
+    "cameras": "Sicherheitskameras",
+    "reception": "Rezeption"
+  },
+  "gallery": {
+    "eyebrow": "Inside PAPARAZZI",
+    "title": "Ein genauerer Blick",
+    "description": "A gallery prepared for optimized thumbnails and full-size viewing. Replace the placeholder image files with the hotel's real photography.",
+    "placeholder": "Image placeholder",
+    "open": "Open image"
+  },
+  "attractions": {
+    "eyebrow": "Around Bitola",
+    "title": "Sehenswürdigkeiten",
+    "description": "Explore the streets, landmarks, museums and natural surroundings of Bitola.",
+    "categories": {
+      "street": "Street",
+      "landmark": "Landmark",
+      "archaeology": "Archaeology",
+      "square": "Square",
+      "market": "Market",
+      "architecture": "Architecture",
+      "museum": "Museum",
+      "nature": "Nature"
+    },
+    "sirok": {
+      "name": "Širok Sokak",
+      "description": "Bitola's best-known pedestrian street and a natural starting point for exploring the city."
+    },
+    "clock": {
+      "name": "Clock Tower / Saat Kula",
+      "description": "One of Bitola's defining landmarks and a central point for a walk through the city."
+    },
+    "heraclea": {
+      "name": "Heraclea Lyncestis",
+      "description": "An important archaeological site associated with ancient Bitola."
+    },
+    "magnolia": {
+      "name": "Magnolia Square",
+      "description": "A central urban square surrounded by characteristic city architecture and activity."
+    },
+    "bazaar": {
+      "name": "Old Bazaar",
+      "description": "A historic commercial quarter with traditional urban character."
+    },
+    "isak": {
+      "name": "Isak Mosque",
+      "description": "A notable religious and architectural landmark in Bitola."
+    },
+    "yeni": {
+      "name": "Yeni Mosque",
+      "description": "Another of Bitola's historic Ottoman-era architectural landmarks."
+    },
+    "philip": {
+      "name": "Philip II Statue",
+      "description": "A prominent city landmark in Bitola."
+    },
+    "museum": {
+      "name": "Bitola Museum",
+      "description": "A museum destination for visitors interested in the city's history and culture."
+    },
+    "pelister": {
+      "name": "Pelister National Park",
+      "description": "A natural destination near Bitola for mountain landscapes and outdoor exploration."
+    }
+  },
+  "location": {
+    "eyebrow": "Find us",
+    "title": "Eine praktische Basis in Bitola",
+    "description": "PAPARAZZI Luxury Apartments is in Bitola, North Macedonia. The Clock Tower is approximately 600 m away and Širok Sokak approximately 1 km away.",
+    "address": "Adresse",
+    "parking": "Street parking is available in front of the property.",
+    "directions": "Route planen"
+  },
+  "booking": {
+    "eyebrow": "Reserve directly through trusted channels",
+    "title": "So können Sie buchen",
+    "description": "Reservations are handled externally through Booking.com, Airbnb or direct contact by phone, WhatsApp or Viber.",
+    "booking": "Booking.com",
+    "airbnb": "Airbnb",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "viber": "Viber"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Häufig gefragt",
+    "checkIn": "What time is check-in?",
+    "checkOut": "What time is check-out?",
+    "parking": "Is parking available?",
+    "wifi": "Is Wi-Fi available?",
+    "self": "Is self check-in available?",
+    "towels": "Are towels provided?",
+    "air": "Is air conditioning available?",
+    "heating": "Is heating available?",
+    "fridge": "Is there a refrigerator?",
+    "sirok": "Is the property close to Širok Sokak?",
+    "clock": "Is the property close to the Clock Tower?",
+    "reservation": "How can I make a reservation?",
+    "todo": "TODO: REPLACE WITH THE REAL ANSWER."
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Aufenthalt planen",
+    "description": "Use the contact method that suits you. The website does not collect reservations or payment details.",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "whatsapp": "WhatsApp",
+    "viber": "Viber",
+    "booking": "Booking.com",
+    "airbnb": "Airbnb",
+    "social": "Social Media"
+  },
+  "houseRules": {
+    "eyebrow": "Before arrival",
+    "title": "Hausregeln",
+    "intro": "Only confirmed property information is published here. Unknown policies remain clearly marked for completion.",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "smoking": "Smoking",
+    "pets": "Pets",
+    "children": "Children",
+    "noise": "Noise & parties",
+    "damage": "Damage",
+    "keys": "Keys & self check-in",
+    "todo": "TODO: REPLACE WITH THE REAL POLICY."
+  },
+  "about": {
+    "eyebrow": "About PAPARAZZI",
+    "title": "Ein hochwertiges Aufenthaltserlebnis in Bitola",
+    "text1": "PAPARAZZI Luxury Apartments is positioned as a comfortable, polished accommodation experience in Bitola, with private bathrooms across all units and practical amenities for an easy stay.",
+    "text2": "The property combines three floors of accommodation with a quiet rear courtyard, reception, self check-in and a location close to central Bitola sights."
+  },
+  "legal": {
+    "privacyTitle": "Privacy policy",
+    "cookieTitle": "Cookie policy",
+    "termsTitle": "Terms",
+    "accessibilityTitle": "Accessibility",
+    "privacy": "This static website is designed to provide information about PAPARAZZI Luxury Apartments. Replace this text with the property's final legal privacy notice before publication.",
+    "cookie": "This site does not include non-essential tracking by default. Replace this page with the property's final cookie notice if analytics or other third-party technologies are added.",
+    "terms": "Replace this page with the property's final terms of use, booking terms and legal information before publication.",
+    "accessibility": "PAPARAZZI aims for a WCAG 2.2 AA-oriented experience, including keyboard navigation, focus states, semantic markup, reduced motion support and accessible interactive components."
+  },
+  "footer": {
+    "description": "PAPARAZZI Luxury Apartments · Bitola, North Macedonia",
+    "quickLinks": "Explore",
+    "contact": "Kontakt",
+    "legal": "Legal",
+    "copyright": "© {{year}} PAPARAZZI Luxury Apartments. All rights reserved."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "The page you're looking for doesn't exist or has moved.",
+    "home": "Zur Startseite",
+    "rooms": "Zimmer entdecken"
+  },
+  "images": {
+    "double1": "Double room interior — replace with real hotel photography",
+    "double2": "Double room detail — replace with real hotel photography",
+    "triple1": "Triple room interior — replace with real hotel photography",
+    "triple2": "Triple room detail — replace with real hotel photography",
+    "apartment1": "Apartment interior — replace with real hotel photography",
+    "apartment2": "Apartment detail — replace with real hotel photography",
+    "hero": "Hotel interior — replace with real hero photography"
+  },
+  "seo": {
+    "homeTitle": "PAPARAZZI Luxury Apartments | Bitola, North Macedonia",
+    "homeDescription": "PAPARAZZI Luxury Apartments in Bitola: double rooms, triple rooms and apartments with private bathrooms, Wi-Fi and self check-in.",
+    "roomsTitle": "Rooms & Apartments | PAPARAZZI Luxury Apartments",
+    "roomsDescription": "Explore double rooms, triple rooms and apartments at PAPARAZZI Luxury Apartments in Bitola.",
+    "aboutTitle": "About | PAPARAZZI Luxury Apartments",
+    "amenitiesTitle": "Amenities | PAPARAZZI Luxury Apartments",
+    "galleryTitle": "Gallery | PAPARAZZI Luxury Apartments",
+    "thingsTitle": "Things to Do in Bitola | PAPARAZZI Luxury Apartments",
+    "locationTitle": "Location | PAPARAZZI Luxury Apartments",
+    "faqTitle": "FAQ | PAPARAZZI Luxury Apartments",
+    "contactTitle": "Contact | PAPARAZZI Luxury Apartments",
+    "rulesTitle": "House Rules | PAPARAZZI Luxury Apartments",
+    "legalTitle": "Legal | PAPARAZZI Luxury Apartments"
+  },
+  "common": {
+    "language": "Language",
+    "menu": "Menu",
+    "close": "Close",
+    "external": "Opens external website",
+    "loading": "Loading",
+    "readMore": "Read more",
+    "previous": "Previous",
+    "next": "Next"
+  }
+}
